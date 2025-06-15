@@ -1,12 +1,4 @@
 Simple Dialog (Custom Layout R.layout) we need to open:
-
-
-
-
-
-
-
-
 <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/custom_dialog_box_view"Add commentMore actions
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
