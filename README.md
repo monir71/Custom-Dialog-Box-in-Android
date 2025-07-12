@@ -1,4 +1,5 @@
 Simple Dialog (Custom Layout R.layout) we need to open:
+```
 <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/custom_dialog_box_view"Add commentMore actions
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -46,10 +47,11 @@ Simple Dialog (Custom Layout R.layout) we need to open:
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 and also simpler code to understand the principle:
-
+```
         Dialog dialog = new Dialog(this);Add commentMore actions
         dialog.setContentView(R.layout.custom_dialog_box);
         dialog.show();
         dialog.setCancelable(false); //This is just for locking the dialog (test yourself please)
+```
